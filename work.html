@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>function openCity(evt, cityName) {
+    
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- link to style sheet  -->
+    <title>Billy Tran Website</title> <!-- Your Name/Website Name Here -->
+
+</head> 
+    
+    
+    <body>
+        <header>
+            <ul>
+            <li><a href="index.html">Home<a/></li>
+            <li><a href="work.html">Work<a/></li>
+            <li><a href="artiststatement.html">Artist Statement<a/></li>
+            <li><a href="about.html">About<a/></li>
+            <li><a href="contact.html">Contact<a/></li>
+            </ul>
+        </header>
+        <!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>MYLOGO.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<!-- Tab links -->
+
+    <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Art')">Art</button>
+   <button class="tablinks" onclick="openCity(event, 'Photography')">Photography</button>        
+  <button class="tablinks" onclick="openCity(event, 'Designs')">Designs</button>
+  <button class="tablinks" onclick="openCity(event, 'Digital Media')">Digital Media</button>
+    <button class="tablinks" onclick="openCity(event, 'Others')">Others</button>
+    </div>
+
+<!--_____________________________________________________________________________ART___________________________________________________________________________________________________________ -->
+<div id="Art" class="tabcontent">
+  <h3>Personal Art</h3>
+      <p>Art that I do on my own time, I work with many media, from pen,pencil,markers,paint,etc.</p>
+    <div class="row">
+  <div class="column">
+    <div class="content">
+        <a href="images/Billy%20Tran%20Portrait.jpg">
+      <img src="images/Billy%20Tran%20Portrait.jpg" alt="Billy" style="width:100%"></a>
+      <h3>Portrait</h3>
+      <p>Rendered portrait of me done in graphite pencils. This work is done on 24x18 drawing paper.  </p>
+    </div>
+  </div>
+
+    
+    <div class="column">
+    <div class="content">
+        <a href="images/Pudgey%20Burb.jpg">
+        <img src="images/Pudgey%20Burb.jpg" alt=burb style="width:100%"></a>
+             <h3>Pudgey Burb</h3>
+        <p>Burb done in copic markers</p>
+        </div>
+        </div>
+    
+    <div class="column">
+    <div class="content">
+        <a href="images/Gopher%20Copic.jpg">
+        <img src="images/Gopher%20Copic.jpg" alt=Gopher style="width:100%"></a>
+             <h3>Gopher it!</h3>
+            <p>Gopher done in copic markers</p>
+        
+        </div>
+        </div>
+      <div class="column">
+    <div class="content">
+        <a href= "images/Happy%20Pupper.jpg">
+        <img src="images/Happy%20Pupper.jpg" alt=pupper style="width:100%"></a>
+             <h3>Happy Doggo Happy Life</h3>
+             <p>Pupper done in Copic Markers</p>
+        
+         </div>
+         </div>
+         <div class="column">
+    <div class="content">
+        <a href= "images/Cardboard%20Turtle.jpg">
+        <img src="images/Cardboard%20Turtle.jpg" alt="Turtle" style="width:100%"></a>
+        <h3>Symbolism: Time</h3>
+        <p>Watercolor turtle on cardboard with pen work and gesso</p>
+        </div>
+        </div>     
+    <div class="column">
+    <div class="content">
+        <a href="images/Birthday%20Bunny.jpg">
+        <img src="images/Birthday%20Bunny.jpg" alt=burb style="width:100%"></a>
+             <h3>Birthday Bunny!</h3>
+        <p>Pen drawing of bunny for a birthday gift</p>
+        </div>
+        </div>
+ 
+        
+      <div class="column">
+    <div class="content">
+        <a href="images/dog.png">
+        <img src="images/dog.png" alt="Dog" style="width:100%"></a>
+        <h3>Doggo</h3>
+        <p>Blue penart of shiba inu in blanket</p>
+        </div>
+        </div>      
+        
+    
+     <div class="column">
+    <div class="content">
+        <a href="images/Snowy%20Moon%20Owl.jpg">
+        <img src="images/Snowy%20Moon%20Owl.jpg" alt="Owl" style="width:100%"></a>
+        <h3>Owl of the Moon</h3>
+        <p>Watercolor Owl painting</p>
+        </div>
+        </div>      
+        
+     
+        
+    
+    
+     <div class="column">
+    <div class="content">
+        <a href="images/bird">
+            <img src="images/bird.png" alt="Bird" style="width:100%"></a>
+        <h3>Sunset Songbird</h3>
+        <p>Blue,purple, and black pen work of a bird on a branch</p>
+        </div>
+        </div>      
+        
+    
+   
+        </div>
+        </div>
+    
+<!--__________________________________________________________________________________________PHOTOGRAPHY________________________________________________________________________________________________________________-->    
+<div id="Photography" class="tabcontent">
+  <h3>Photography</h3>
+    <p>I usually take photos of animals and nature using my digital canon camera!</p>
+    <div class="row">
+    
+        
+        <div class="column">
+        <div class="content">
+        <a href="images/Piggy.jpg">    
+            <img src="images/Piggy.jpg" alt="Piggy" style="width:100%"></a>
+        <h3>Piggy</h3>
+        <p>Photogenic piglet shot</p>    
+        </div>
+        </div>    
+        
+        
+        
+        
+    <div class="column">
+    <div class="content">
+        <a href="images/Landscape.jpg">
+      <img src="images/Landscape.jpg" alt="Landscape" style="width:100%"></a>
+      <h3>Lake shot</h3>
+      <p>Photo taken at Sanborn County park in fall</p>
+    </div>
+  </div>    
+    
+    
+    <div class="column">
+    <div class="content">
+        <a href="images/Sheep.jpg">
+            <img src="images/Sheep.jpg" alt="Sheep" style="width:100%"></a>
+        
+      <h3>Sheep</h3>
+      <p>Photo taken at Happy Hollow Park and Zoo</p>
+    </div>
+  </div>
+    
+    <div class="column">
+    <div class="content">
+    <a href="images/Lemur.jpg">    
+        <img src="images/Lemur.jpg" alt="Lemur" style="width:100%"></a>
+      <h3>Photogenic Lemur</h3>
+      <p>Photo taken at Happy Hollow Park and Zoo</p>
+        </div>
+  </div>
+      
+ 
+    <div class="column">
+    <div class="content">
+        <a href="images/Nature.jpg">
+            <img src="images/Nature.jpg" alt="Nature" style="width:100%"></a>
+        <h3>Aesthetic</h3>
+        <p>Photo taken at Paradise Cove</p>
+        </div>
+        </div>    
+          <div class="column">
+    <div class="content">
+        <a href="images/Tiburon%20Picture.jpg">
+            <img src="images/Tiburon%20Picture.jpg" alt="Tiburon" style="width:100%"></a>
+        <h3>Piers of Tiburon</h3>
+        <p>Shot at Tiburon Piers on a clear afternoon</p>
+        </div>
+        </div>  
+        
+       
+        <div class="column">
+        <div class="content">
+        <a href="images/Succulent-1.JPG">    
+            <img src="images/Succulent-1.JPG" alt="Plant" style="width:100%"></a>
+        <h3>Succulents</h3>
+        <p>Succulent photo</p>    
+        </div>
+        </div>
+        
+        <div class="column">
+        <div class="content">
+            <a href="images/Horse%20Trail-1.JPG">
+        <img src="images/Horse%20Trail-1.JPG" alt="Plant" style="width:100%"></a>
+        <h3>Pick a trail</h3>
+        <p>Sign peg found at Alum Rock Park</p>    
+            </div>
+        </div>
+            
+    <div class="column">
+    <div class="content">
+        <a href="images/Ohlone%20Land.jpg">
+        <img src="images/Ohlone%20Land.jpg" alt="Land" style="width:100%"></a>
+        <h3>Ohlone Land</h3>
+        <p>Photo taken at Alum Rock park</p>
+        
+        </div>
+        </div>
+           
+        <div class="column">
+        <div class="content">
+            <a href="images/Aesthetic%20Plant.JPG">
+        <img src="images/Aesthetic%20Plant.JPG" alt="plant" style="width:100%"></a>
+             <h3>Aesthetic Plant</h3>
+            <p>Beautiful succulents arranged at a small studio in Japan Town</p>
+            
+            
+            
+            
+        
+        
+           </div>
+        </div>   
+        
+    </div>
+    </div>
+<!--____________________________________________________________________________________________________DESIGNS___________________________________________________________________________________________________________--> 
+<div id="Designs" class="tabcontent">
+  <h3>Designs</h3>
+  <p>Graphics and Vector Designs</p>
+    
+
+    <div class="row">
+            <div class="column">
+        <div class="content">
+        <img src="images/Meeeeeeee.png" alt="Billy" style="width:100%">
+        <h3>Self Portrait</h3>
+        <p>Vectorized Billy!</p>
+            
+            
+    
+         </div>
+        </div>
+        
+             <div class="column">
+        <div class="content">
+        <img src="images/Vector%20Boyz.PNG" alt="Billy" style="width:100%">
+        <h3>Gamer Boyz</h3>
+        <p>Vectorized Boyz using Pen tool in Illustrator</p>
+            
+            
+        
+         </div>
+        </div>
+         <div class="column">
+        <div class="content">
+        <img src="images/Billy_Tran_Flip_Book-02.png" alt="Billy" style="width:100%">
+        <h3>Yahaha</h3>
+        <p>Flip book design of video game character using Illustrator</p>
+             </div>
+        </div>    
+         <div class="column">
+        <div class="content">
+        <img src="images/Billy_Tran_Composite.png" alt="Billy" style="width:100%">
+        <h3>Composite Billy</h3>
+        <p>Composite of me with another photo where I am sitting on a rock in a attemtp to make it see less photoshop as possible</p>
+            
+            
+        
+         </div>
+        </div>    
+        
+        <div class="column">
+        <div class="content">
+        <img src="images/CD%20Trace%20Design.png" alt="Billy" style="width:100%">
+        <h3>CD Trace Design</h3>
+        <p>Vectorized CD Design</p>
+            
+         </div>
+        </div>
+        <div class="column">
+        <div class="content">
+        <img src="images/Visual%20Composition.png" alt="Billy" style="width:100%">
+        <h3>Gamer Boyz</h3>
+        <p>Vectorized Boyz using Pen tool in Illustrator</p>
+            
+
+            
+            </div>
+            </div>    
+    
+            </div>
+    
+            </div>    
+<!--____________________________________________________________________________________________________________DIGITAL MEDIA_____________________________________________________________________________________________-->     
+<div id="Digital Media" class="tabcontent">
+  <h3>Digital Media</h3>
+    <p>Digital works using many forms of digital media from photoshop to coding to video editting</p> 
+    <div class="row">
+        
+        
+          <div class="column">
+        <div class="content">
+        <img src="images/Tran_Billy_Proj_2_Glitch_Art_.png" alt="Composite" style="width:100%">
+        <h3>The code within me</h3>
+        <p>Photo of myself along with basic photoshop editting and practical glitch art in the background with text errors while using illustrator as well.</p>
+            
+         </div>
+        </div> 
+          
+         <div class="column">
+        <div class="content">
+        <img src="images/Tran_Billy_Proj_3_Composite.jpg" alt="Composite" style="width:100%">
+        <h3>Different Worlds</h3>
+        <p>Composited images utlizing photoshop,scrapping,calligraphy, and pen art.</p>
+             
+            
+         </div>
+        </div>
+        </div>
+        </div>    
+    
+<!--
+--------------------------------------Others----------------------------->
+    
+    <div id="Others" class="tabcontent">
+  <h3>Others</h3>
+  <p>Works that require you to click on the links below to view!</p>
+        <a href="https://soundcloud.com/billy-tran-203423867/the-spirits-of-the-forest">My sound art</a>
+    <br>
+        <a href="https://vimeo.com/258000679">My video art</a>
+        <br>
+         <a href="https://billytran246.github.io/bnetart.github.io/">My net art</a>
+        <br>
+        <script type="text/javascript" src="javascript/application.windows64/RainyDay.exe"></script>
+
+<!-- Portfolio Gallery Grid -->
+
+    
+<!-- END MAIN -->
+</div>
+        <footer>
+        <p> &copy; Billy Tran 2018</p>
+        </footer>
+    </body>
+</html>
